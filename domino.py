@@ -3,9 +3,9 @@ from time import sleep
 logo = ""
 
 	###############################
-	#     SCRIPT TUYUL                                      #
-	#    HIGH DOMINO ISLAND                          #
-	#     #BY BANGKE                                         #
+	#     SCRIPT TUYUL            #
+	#    HIGH DOMINO ISLAND       #
+	#     #BY BANGKE              #
 	###############################
 	     
 r = requests.Session()
@@ -16,7 +16,7 @@ def main():
 	a = getpass.getpass("     Pasword:")
 	url = "https://www.topbos.com/web/idLogin.do"
 	hed = {
-	"user-agent":"Mozilla public license/2.0 (Linux; Android 9; SM-A207F Build/PPR1.180610.110; wv) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/86.04240Mobile Safari/537.36"
+	"user-agent":"Mozilla public license/2.0 (Linux; Android 9; SM-A207F Build/PPR1.180610.110; wv) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/86.04240 Mobile Safari/537.36"
 	}
 	data = {
 	"userId":b,
